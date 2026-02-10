@@ -24,9 +24,21 @@ A Discord bot that tracks your Hack The Box (HTB) progress throughout the week a
 
 ## Setup
 
+### Option 1: Using Nix (Recommended)
+
+If you have [Nix](https://nixos.org/) installed with [flakes](https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html) enabled:
+
+```bash
+nix develop
+```
+
+This will enter a shell with all dependencies installed automatically.
+
+### Option 2: Manual Setup
+
 1. **Clone the repository**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/UniversityOfAthens/HTB-Progress-Tracker.git
    cd HTB-Progress-Tracker
    ```
 
@@ -99,6 +111,11 @@ HTB-Progress-Tracker/
 - Discord.py
 - requests
 - python-dotenv
+
+Or use [Nix](https://nixos.org/) with flakes for automatic dependency management:
+```bash
+nix develop
+```
 
 ## License
 
