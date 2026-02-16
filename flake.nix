@@ -20,7 +20,6 @@
   in {
     devShells.${system}.default = pkgs.mkShell {
       packages = [
-        bash
         pythonEnv
       ];
     };
